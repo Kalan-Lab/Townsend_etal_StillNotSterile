@@ -1,0 +1,91 @@
+2023-12-02 23:36:43 INFO::Writing function arguments to log file
+2023-12-02 23:36:43 DEBUG::Function arguments
+2023-12-02 23:36:43 DEBUG::Output folder: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin
+2023-12-02 23:36:43 DEBUG::Min Abundance: 0.010000
+2023-12-02 23:36:43 DEBUG::Min Prevalence: 0.100000
+2023-12-02 23:36:43 DEBUG::Normalization: TSS
+2023-12-02 23:36:43 DEBUG::Transform: LOG
+2023-12-02 23:36:43 DEBUG::Analysis method: LM
+2023-12-02 23:36:43 DEBUG::Max significance: 0.250000
+2023-12-02 23:36:43 DEBUG::Random effects: Subject,Gender,AntibioticProphylaxisYN
+2023-12-02 23:36:43 DEBUG::Fixed effects: Timepoint
+2023-12-02 23:36:43 DEBUG::Correction method: BH
+2023-12-02 23:36:43 DEBUG::Standardize: TRUE
+2023-12-02 23:36:43 DEBUG::Cores: 1
+2023-12-02 23:36:43 INFO::Verifying options selected are valid
+2023-12-02 23:36:43 INFO::Determining format of input files
+2023-12-02 23:36:43 INFO::Input format is data samples as rows and metadata samples as rows
+2023-12-02 23:36:43 DEBUG::The following samples were found to have features but no metadata. They will be removed. LK16S009-001,LK16S009-002,LK16S009-003,LK16S009-004,LK16S009-005,LK16S009-006,LK16S009-007,LK16S009-008,LK16S009-009,LK16S009-010,LK16S009-011,LK16S009-012,LK16S009-013,LK16S009-014,LK16S009-015,LK16S009-016,LK16S009-017,LK16S009-018,LK16S009-019,LK16S009-020,LK16S009-021,LK16S009-022,LK16S009-023,LK16S009-024,LK16S009-025,LK16S009-026,LK16S009-027,LK16S009-028,LK16S009-029,LK16S009-030,LK16S009-031,LK16S009-032,LK16S009-033,LK16S009-034,LK16S009-035,LK16S009-036,LK16S009-037,LK16S009-038,LK16S009-039,LK16S009-040,LK16S009-041,LK16S009-042,LK16S009-043,LK16S009-044,LK16S009-045,LK16S009-046,LK16S009-047,LK16S009-048,LK16S009-049,LK16S009-050,LK16S009-051,LK16S009-052,LK16S009-053,LK16S009-054,LK16S009-055,LK16S009-056,LK16S009-057,LK16S009-058,LK16S009-059,LK16S009-060,LK16S009-061,LK16S009-062,LK16S009-063,LK16S009-064,LK16S009-065,LK16S009-066,LK16S009-067,LK16S009-068,LK16S009-069,LK16S009-070,LK16S009-071,LK16S009-072,LK16S009-073,LK16S009-074,LK16S009-075,LK16S009-076,LK16S009-077,LK16S009-078,LK16S009-079,LK16S009-080,LK16S009-081,LK16S009-082,LK16S009-083,LK16S009-084,LK16S009-085,LK16S009-086,LK16S009-087,LK16S009-088,LK16S009-089,LK16S009-090,LK16S009-091,LK16S009-092,LK16S009-093,LK16S009-094,LK16S009-095,LK16S009-096,LK16S009-097,LK16S009-098,LK16S009-099,LK16S009-100,LK16S009-101,LK16S009-102,LK16S009-104,LK16S009-105,LK16S009-106,LK16S009-107,LK16S009-108,LK16S009-109,LK16S009-110,LK16S009-111,LK16S009-112,LK16S009-114,LK16S009-116,LK16S009-118,LK16S009-120,LK16S009-121,LK16S009-122,LK16S009-123,LK16S009-124,LK16S009-125,LK16S009-126,LK16S009-127,LK16S009-128,LK16S009-129,LK16S009-130,LK16S009-131,LK16S009-132,LK16S009-133,LK16S009-134,LK16S009-135,LK16S009-136,LK16S009-137,LK16S009-138,LK16S009-139,LK16S009-140,LK16S009-141,LK16S009-142,LK16S009-143,LK16S009-144,LK16S009-145,LK16S009-146,LK16S009-148,LK16S009-150,LK16S009-152,LK16S009-153,LK16S009-154,LK16S009-155,LK16S009-156,LK16S009-157,LK16S009-158,LK16S009-159,LK16S009-160,LK16S009-162,LK16S009-164,LK16S009-166,LK16S009-168,LK16S009-169,LK16S009-170,LK16S009-171,LK16S009-172,LK16S009-173,LK16S009-174,LK16S009-175,LK16S009-176,LK16S009-178,LK16S009-180,LK16S009-185,LK16S009-186,LK16S009-187,LK16S009-188,LK16S011-001,LK16S011-002,LK16S011-003,LK16S011-004,LK16S011-005,LK16S011-006,LK16S011-007,LK16S011-008,LK16S011-009,LK16S011-010,LK16S011-011,LK16S011-012,LK16S011-013,LK16S011-014,LK16S011-015,LK16S011-016,LK16S011-017,LK16S011-018,LK16S011-019,LK16S011-020,LK16S011-021,LK16S011-022,LK16S011-023,LK16S011-024,LK16S011-025,LK16S011-026,LK16S011-027,LK16S011-028,LK16S011-029,LK16S011-030,LK16S011-031,LK16S011-032,LK16S011-033,LK16S011-034,LK16S011-035,LK16S011-036,LK16S011-037,LK16S011-038,LK16S011-039,LK16S011-040,LK16S011-041,LK16S011-042,LK16S011-043,LK16S011-044,LK16S011-045,LK16S011-046,LK16S011-047,LK16S011-048,LK16S011-049,LK16S011-050,LK16S011-051,LK16S011-052,LK16S011-053,LK16S011-054,LK16S011-055,LK16S011-057,LK16S011-058,LK16S011-059,LK16S011-060,LK16S011-061,LK16S011-062,LK16S011-063,LK16S011-065,LK16S011-066,LK16S011-067,LK16S011-068,LK16S011-069,LK16S011-070,LK16S011-071,LK16S011-072,LK16S011-073,LK16S011-074,LK16S011-075,LK16S011-076,LK16S011-077,LK16S011-078,LK16S011-079,LK16S011-080,LK16S011-081,LK16S011-082,LK16S011-083,LK16S011-084,LK16S011-085,LK16S011-086,LK16S011-087,LK16S011-088,LK16S011-089,LK16S011-090,LK16S011-091,LK16S011-092,LK16S011-093,LK16S011-094,LK16S011-095,LK16S011-096,LK16S011-097,LK16S011-098,LK16S011-099,LK16S011-100,LK16S011-101,LK16S011-102,LK16S011-103,LK16S011-104,LK16S011-105,LK16S011-106,LK16S011-107,LK16S011-108,LK16S011-109,LK16S011-110,LK16S011-111,LK16S011-112,LK16S011-114,LK16S011-116,LK16S011-118,LK16S011-120,LK16S011-121,LK16S011-122,LK16S011-123,LK16S011-124,LK16S011-125,LK16S011-126,LK16S011-127,LK16S011-128,LK16S011-130,LK16S011-131,LK16S011-132,LK16S011-133,LK16S011-134,LK16S011-135,LK16S011-136,LK16S011-137,LK16S011-138,LK16S011-139,LK16S011-140,LK16S011-141,LK16S011-142,LK16S011-143,LK16S011-144,LK16S011-145,LK16S011-146,LK16S011-147,LK16S011-148,LK16S011-149,LK16S011-150,LK16S011-151,LK16S011-152,LK16S011-153,LK16S011-154,LK16S011-155,LK16S011-156,LK16S011-157,LK16S011-158,LK16S011-159,LK16S011-160,LK16S011-161,LK16S011-162,LK16S011-163,LK16S011-164,LK16S011-165,LK16S011-166,LK16S011-168,LK16S011-169,LK16S011-170,LK16S011-171,LK16S011-172,LK16S011-173,LK16S011-174,LK16S011-175,LK16S011-176,LK16S011-178,LK16S011-180,LK16S011-182,LK16S011-184,LK16S011-185,LK16S011-186,LK16S011-187,LK16S011-188,LK16S011-189,LK16S011-190,LK16S011-191,LK16S011-192,LK16S011-193,LK16S011-194,LK16S011-195,LK16S011-196,LK16S011-197,LK16S011-198,LK16S011-199,LK16S011-200,LK16S011-201,LK16S011-202,LK16S011-203,LK16S011-204,LK16S011-205,LK16S011-206,LK16S011-207,LK16S011-208,LK16S011-210,LK16S011-212,LK16S011-214,LK16S011-216,LK16S011-217,LK16S011-218,LK16S011-219,LK16S011-220,LK16S011-221,LK16S011-222,LK16S011-223,LK16S011-224,LK16S011-226,LK16S011-227,LK16S011-228,LK16S011-229,LK16S011-230,LK16S011-231,LK16S011-232,LK16S011-233,LK16S011-234,LK16S011-235,LK16S011-236,LK16S011-237,LK16S011-238,LK16S011-239,LK16S011-240,LK16S011-241,LK16S011-242,LK16S011-243,LK16S011-244,LK16S011-245,LK16S011-246,LK16S011-247,LK16S011-248,LK16S011-249,LK16S011-250,LK16S011-251,LK16S011-252,LK16S011-253,LK16S011-254,LK16S011-255,LK16S011-256,LK16S011-257,LK16S011-258,LK16S011-259,LK16S011-260,LK16S011-261,LK16S011-262,LK16S011-264,LK16S011-265,LK16S011-266,LK16S011-267,LK16S011-268,LK16S011-269,LK16S011-270,LK16S011-271,LK16S011-272,LK16S011-274,LK16S011-276,LK16S011-278,LK16S011-280,LK16S011-281,LK16S011-282,LK16S011-283,LK16S011-284,LK16S011-285,LK16S011-286,LK16S011-287,LK16S011-288,LK16S011-290,LK16S011-292,LK16S011-294,LK16S011-296,LK16S011-297,LK16S011-298,LK16S011-299,LK16S011-300,LK16S011-301,LK16S011-302,LK16S011-303,LK16S011-304,LK16S011-305,LK16S011-306,LK16S011-307,LK16S011-308,LK16S011-309,LK16S011-310,LK16S011-311,LK16S011-312,LK16S011-313,LK16S011-314,LK16S011-315,LK16S011-316,LK16S011-317,LK16S011-318,LK16S011-319,LK16S011-320,LK16S011-321,LK16S011-322,LK16S011-323,LK16S011-324,LK16S011-325,LK16S011-326,LK16S011-327,LK16S011-328,LK16S011-329,LK16S011-330,LK16S011-331,LK16S011-332,LK16S011-333,LK16S011-334,LK16S011-335,LK16S011-336,LK16S011-337,LK16S011-338,LK16S011-339,LK16S011-340,LK16S011-343,LK16S011-345,LK16S011-346,LK16S011-347,LK16S011-348,LK16S011-350,LK16S011-351,LK16S011-352,LK16S011-353,LK16S011-355,LK16S011-357,LK16S011-359,LK16S011-361,LK16S011-362,LK16S011-363,LK16S011-364,LK16S011-365,LK16S011-366,LK16S011-367,LK16S011-384
+2023-12-02 23:36:43 DEBUG::A total of 43 samples were found in both the data and metadata
+2023-12-02 23:36:43 DEBUG::Reordering data/metadata to use same sample ordering
+2023-12-02 23:36:43 INFO::Formula for random effects: expr ~ (1 | Subject) + (1 | Gender) + (1 | AntibioticProphylaxisYN)
+2023-12-02 23:36:43 INFO::Formula for fixed effects: expr ~  Timepoint
+2023-12-02 23:36:43 INFO::Filter data based on min abundance and min prevalence
+2023-12-02 23:36:43 INFO::Total samples in data: 43
+2023-12-02 23:36:43 INFO::Min samples required with min abundance for a feature not to be filtered: 4.300000
+2023-12-02 23:36:43 INFO::Total filtered features: 115
+2023-12-02 23:36:43 INFO::Filtered feature names from abundance and prevalence filtering: Eubacterium_nodatum_group, X0319.6G20, Abiotrophia, Aerococcus, Aeromonas, Agathobacter, Alkanindiges, Alloprevotella, Amaricoccus, Anoxybacillus, Atopobium, Aureimonas, Auricoccus.Abyssicoccus, Azospirillum, Bacteroides, Bifidobacterium, Blastococcus, Blautia, Brevibacillus, Brochothrix, Burkholderia.Caballeronia.Paraburkholderia, Campylobacter, Capnocytophaga, Caulobacter, Clostridium_sensu_stricto_1, Collinsella, Comamonas, Deinococcus, Delftia, Denitratisoma, Dermabacter, Dermacoccus, Dolosigranulum, Dorea, DSSD61, Enterobacter, Enterococcus, Eremococcus, Ezakiella, Facklamia, Faecalibacterium, Fastidiosipila, Fenollaria, Fusicatenibacter, Fusobacterium, Gardnerella, Gemella, Granulicatella, Haematobacter, Helcococcus, Intestinibacter, Janthinobacterium, Jeotgalicoccus, JG30.KF.CM45, KD4.96, Klebsiella, Klenkia, Lachnoanaerobaculum, Lactobacillus, Lactococcus, Lautropia, Leptotrichia, Leuconostoc, Macrococcus, Marmoricola, Massilia, Meiothermus, Methylobacterium.Methylorubrum, Methylocella, Methylophilus, Microbacterium, Millisia, Mobilicoccus, Moraxella, Murdochiella, Muricoccus, Mycobacterium, Mycoplasma, Negativicoccus, Nesterenkonia, Oribacterium, Ornithinimicrobium, Ottowia, Pantoea, Pedobacter, Pelomonas, Peptoniphilus, Peptostreptococcus, Phreatobacter, Porphyromonas, Pseudoclavibacter, Pseudoglutamicibacter, Pseudorhodoplanes, Pseudoxanthomonas, Puia, Rhodococcus, Romboutsia, Roseomonas, Ruminococcus, S5.A14a, Saccharimonadales, Selenomonas, Serratia, Skermanella, Sphingobacterium, Stenotrophomonas, Stomatobaculum, Subdoligranulum, Terrisporobacter, Turicibacter, Varibaculum, Weissella, WPS.2, Xanthomonas, Yimella
+2023-12-02 23:36:43 INFO::Total filtered features with variance filtering: 1
+2023-12-02 23:36:43 INFO::Filtered feature names from variance filtering: SampleID
+2023-12-02 23:36:43 INFO::Running selected normalization method: TSS
+2023-12-02 23:36:43 INFO::Applying z-score to standardize continuous metadata
+2023-12-02 23:36:43 INFO::Running selected transform method: LOG
+2023-12-02 23:36:43 INFO::Running selected analysis method: LM
+2023-12-02 23:36:43 INFO::Fitting model to feature number 1, Acinetobacter
+2023-12-02 23:36:43 INFO::Fitting model to feature number 2, Actinomyces
+2023-12-02 23:36:43 INFO::Fitting model to feature number 3, Afipia
+2023-12-02 23:36:44 INFO::Fitting model to feature number 4, Anaerococcus
+2023-12-02 23:36:44 INFO::Fitting model to feature number 5, Bacillus
+2023-12-02 23:36:44 INFO::Fitting model to feature number 6, Bosea
+2023-12-02 23:36:44 INFO::Fitting model to feature number 7, Brachybacterium
+2023-12-02 23:36:44 INFO::Fitting model to feature number 8, Brevibacterium
+2023-12-02 23:36:44 INFO::Fitting model to feature number 9, Brevundimonas
+2023-12-02 23:36:45 INFO::Fitting model to feature number 10, Corynebacterium
+2023-12-02 23:36:45 INFO::Fitting model to feature number 11, Cutibacterium
+2023-12-02 23:36:45 INFO::Fitting model to feature number 12, Dietzia
+2023-12-02 23:36:45 INFO::Fitting model to feature number 13, Escherichia.Shigella
+2023-12-02 23:36:45 INFO::Fitting model to feature number 14, Finegoldia
+2023-12-02 23:36:46 INFO::Fitting model to feature number 15, Gordonia
+2023-12-02 23:36:46 INFO::Fitting model to feature number 16, Haemophilus
+2023-12-02 23:36:46 INFO::Fitting model to feature number 17, Kocuria
+2023-12-02 23:36:46 INFO::Fitting model to feature number 18, Kytococcus
+2023-12-02 23:36:46 INFO::Fitting model to feature number 19, Lawsonella
+2023-12-02 23:36:46 INFO::Fitting model to feature number 20, Luteimonas
+2023-12-02 23:36:47 INFO::Fitting model to feature number 21, Micrococcus
+2023-12-02 23:36:47 INFO::Fitting model to feature number 22, Neisseria
+2023-12-02 23:36:47 INFO::Fitting model to feature number 23, Paracoccus
+2023-12-02 23:36:47 INFO::Fitting model to feature number 24, Prevotella
+2023-12-02 23:36:47 INFO::Fitting model to feature number 25, Pseudomonas
+2023-12-02 23:36:47 INFO::Fitting model to feature number 26, Raoultella
+2023-12-02 23:36:48 INFO::Fitting model to feature number 27, Rothia
+2023-12-02 23:36:48 INFO::Fitting model to feature number 28, Staphylococcus
+2023-12-02 23:36:48 INFO::Fitting model to feature number 29, Streptococcus
+2023-12-02 23:36:48 INFO::Fitting model to feature number 30, Streptomyces
+2023-12-02 23:36:48 INFO::Fitting model to feature number 31, uncultured
+2023-12-02 23:36:49 INFO::Fitting model to feature number 32, Veillonella
+2023-12-02 23:36:49 INFO::Counting total values for each feature
+2023-12-02 23:36:49 WARNING::Deleting existing residuals file: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/residuals.rds
+2023-12-02 23:36:49 INFO::Writing residuals to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/residuals.rds
+2023-12-02 23:36:49 WARNING::Deleting existing fitted file: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/fitted.rds
+2023-12-02 23:36:49 INFO::Writing fitted values to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/fitted.rds
+2023-12-02 23:36:49 WARNING::Deleting existing ranef file: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/ranef.rds
+2023-12-02 23:36:49 INFO::Writing extracted random effects to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/ranef.rds
+2023-12-02 23:36:49 INFO::Writing all results to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/all_results.tsv
+2023-12-02 23:36:49 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/significant_results.tsv
+2023-12-02 23:36:49 INFO::Writing heatmap of significant results to file: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin/heatmap.pdf
+2023-12-02 23:36:49 INFO::Writing association plots (one for each significant association) to output folder: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/ContTotal/CHG_T.Dry_C_overtime_ControledForSubjectBSgenABX_Genus_maslin
+2023-12-02 23:36:49 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-12-02 23:36:49 INFO::Plotting data for metadata number 1, Timepoint
+2023-12-02 23:36:49 INFO::Creating boxplot for categorical data, Timepoint vs Brevundimonas
+2023-12-02 23:36:50 INFO::Creating boxplot for categorical data, Timepoint vs Brevundimonas
+2023-12-02 23:36:51 INFO::Creating boxplot for categorical data, Timepoint vs Staphylococcus
+2023-12-02 23:36:51 INFO::Creating boxplot for categorical data, Timepoint vs Staphylococcus
+2023-12-02 23:36:52 INFO::Creating boxplot for categorical data, Timepoint vs Streptomyces
+2023-12-02 23:36:53 INFO::Creating boxplot for categorical data, Timepoint vs Bosea
+2023-12-02 23:36:53 INFO::Creating boxplot for categorical data, Timepoint vs Veillonella
+2023-12-02 23:36:54 INFO::Creating boxplot for categorical data, Timepoint vs Bosea
+2023-12-02 23:36:55 INFO::Creating boxplot for categorical data, Timepoint vs Bosea
+2023-12-02 23:36:56 INFO::Creating boxplot for categorical data, Timepoint vs Luteimonas
+2023-12-02 23:36:56 INFO::Creating boxplot for categorical data, Timepoint vs Rothia
+2023-12-02 23:36:57 INFO::Creating boxplot for categorical data, Timepoint vs Acinetobacter
+2023-12-02 23:36:57 INFO::Creating boxplot for categorical data, Timepoint vs Raoultella
