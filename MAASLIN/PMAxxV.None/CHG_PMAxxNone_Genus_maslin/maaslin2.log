@@ -1,0 +1,121 @@
+2023-09-20 15:53:10 INFO::Writing function arguments to log file
+2023-09-20 15:53:10 DEBUG::Function arguments
+2023-09-20 15:53:10 DEBUG::Output folder: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin
+2023-09-20 15:53:10 DEBUG::Min Abundance: 0.000000
+2023-09-20 15:53:10 DEBUG::Min Prevalence: 0.100000
+2023-09-20 15:53:10 DEBUG::Normalization: TSS
+2023-09-20 15:53:10 DEBUG::Transform: LOG
+2023-09-20 15:53:10 DEBUG::Analysis method: LM
+2023-09-20 15:53:10 DEBUG::Max significance: 0.250000
+2023-09-20 15:53:10 DEBUG::Random effects: SpecificSubjectSample
+2023-09-20 15:53:10 DEBUG::Fixed effects: PMAxx
+2023-09-20 15:53:10 DEBUG::Correction method: BH
+2023-09-20 15:53:10 DEBUG::Standardize: TRUE
+2023-09-20 15:53:10 DEBUG::Cores: 1
+2023-09-20 15:53:10 INFO::Verifying options selected are valid
+2023-09-20 15:53:10 INFO::Determining format of input files
+2023-09-20 15:53:10 INFO::Input format is data samples as rows and metadata samples as rows
+2023-09-20 15:53:10 DEBUG::The following samples were found to have features but no metadata. They will be removed. LK16S011-019,LK16S011-020,LK16S011-021,LK16S011-022,LK16S011-023,LK16S011-024,LK16S011-027,LK16S011-028,LK16S011-029,LK16S011-030,LK16S011-031,LK16S011-032,LK16S011-384
+2023-09-20 15:53:10 DEBUG::The following samples were found to have metadata but no features. They will be removed. LK16S011-341,LK16S011-349
+2023-09-20 15:53:10 DEBUG::A total of 534 samples were found in both the data and metadata
+2023-09-20 15:53:10 DEBUG::Reordering data/metadata to use same sample ordering
+2023-09-20 15:53:10 INFO::Formula for random effects: expr ~ (1 | SpecificSubjectSample)
+2023-09-20 15:53:10 INFO::Formula for fixed effects: expr ~  PMAxx
+2023-09-20 15:53:10 INFO::Filter data based on min abundance and min prevalence
+2023-09-20 15:53:10 INFO::Total samples in data: 534
+2023-09-20 15:53:10 INFO::Min samples required with min abundance for a feature not to be filtered: 53.400000
+2023-09-20 15:53:10 INFO::Total filtered features: 108
+2023-09-20 15:53:10 INFO::Filtered feature names from abundance and prevalence filtering: Eubacterium_nodatum_group, X0319.6G20, Abiotrophia, Aeromonas, Agathobacter, Alkanindiges, Alloprevotella, Anoxybacillus, Atopobium, Aureimonas, Auricoccus.Abyssicoccus, Azospirillum, Bacteroides, Bifidobacterium, Blastococcus, Blautia, Bosea, Brevibacillus, Brochothrix, Burkholderia.Caballeronia.Paraburkholderia, Campylobacter, Capnocytophaga, Caulobacter, Clostridium_sensu_stricto_1, Collinsella, Comamonas, Deinococcus, Delftia, Denitratisoma, Dermacoccus, Dolosigranulum, Dorea, DSSD61, Enterobacter, Enterococcus, Eremococcus, Ezakiella, Facklamia, Faecalibacterium, Fastidiosipila, Fenollaria, Fusicatenibacter, Fusobacterium, Gardnerella, Gordonia, Granulicatella, Haematobacter, Helcococcus, Intestinibacter, Janthinobacterium, Jeotgalicoccus, JG30.KF.CM45, KD4.96, Klebsiella, Klenkia, Lachnoanaerobaculum, Lactobacillus, Lautropia, Leptotrichia, Leuconostoc, Macrococcus, Marmoricola, Massilia, Meiothermus, Methylocella, Methylophilus, Microbacterium, Millisia, Mobilicoccus, Moraxella, Murdochiella, Muricoccus, Mycobacterium, Mycoplasma, Negativicoccus, Neisseria, Nesterenkonia, Oribacterium, Ornithinimicrobium, Ottowia, Pantoea, Pedobacter, Pelomonas, Peptostreptococcus, Phreatobacter, Porphyromonas, Pseudoclavibacter, Pseudoglutamicibacter, Pseudorhodoplanes, Pseudoxanthomonas, Puia, Rhodococcus, Romboutsia, Ruminococcus, S5.A14a, Saccharimonadales, Selenomonas, Skermanella, Sphingobacterium, Stomatobaculum, Subdoligranulum, Terrisporobacter, Turicibacter, Varibaculum, Weissella, WPS.2, Xanthomonas, Yimella
+2023-09-20 15:53:10 INFO::Total filtered features with variance filtering: 1
+2023-09-20 15:53:10 INFO::Filtered feature names from variance filtering: SampleID
+2023-09-20 15:53:10 INFO::Running selected normalization method: TSS
+2023-09-20 15:53:10 INFO::Applying z-score to standardize continuous metadata
+2023-09-20 15:53:10 INFO::Running selected transform method: LOG
+2023-09-20 15:53:10 INFO::Running selected analysis method: LM
+2023-09-20 15:53:10 INFO::Fitting model to feature number 1, Acinetobacter
+2023-09-20 15:53:11 INFO::Fitting model to feature number 2, Actinomyces
+2023-09-20 15:53:11 INFO::Fitting model to feature number 3, Aerococcus
+2023-09-20 15:53:11 INFO::Fitting model to feature number 4, Afipia
+2023-09-20 15:53:11 INFO::Fitting model to feature number 5, Amaricoccus
+2023-09-20 15:53:12 INFO::Fitting model to feature number 6, Anaerococcus
+2023-09-20 15:53:12 INFO::Fitting model to feature number 7, Bacillus
+2023-09-20 15:53:12 INFO::Fitting model to feature number 8, Brachybacterium
+2023-09-20 15:53:12 INFO::Fitting model to feature number 9, Brevibacterium
+2023-09-20 15:53:12 INFO::Fitting model to feature number 10, Brevundimonas
+2023-09-20 15:53:12 INFO::Fitting model to feature number 11, Corynebacterium
+2023-09-20 15:53:12 INFO::Fitting model to feature number 12, Cutibacterium
+2023-09-20 15:53:12 INFO::Fitting model to feature number 13, Dermabacter
+2023-09-20 15:53:12 INFO::Fitting model to feature number 14, Dietzia
+2023-09-20 15:53:12 INFO::Fitting model to feature number 15, Escherichia.Shigella
+2023-09-20 15:53:13 INFO::Fitting model to feature number 16, Finegoldia
+2023-09-20 15:53:13 INFO::Fitting model to feature number 17, Gemella
+2023-09-20 15:53:13 INFO::Fitting model to feature number 18, Haemophilus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 19, Kocuria
+2023-09-20 15:53:13 INFO::Fitting model to feature number 20, Kytococcus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 21, Lactococcus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 22, Lawsonella
+2023-09-20 15:53:13 INFO::Fitting model to feature number 23, Luteimonas
+2023-09-20 15:53:13 INFO::Fitting model to feature number 24, Methylobacterium.Methylorubrum
+2023-09-20 15:53:13 INFO::Fitting model to feature number 25, Micrococcus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 26, Paracoccus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 27, Peptoniphilus
+2023-09-20 15:53:13 INFO::Fitting model to feature number 28, Prevotella
+2023-09-20 15:53:13 INFO::Fitting model to feature number 29, Pseudomonas
+2023-09-20 15:53:14 INFO::Fitting model to feature number 30, Raoultella
+2023-09-20 15:53:14 INFO::Fitting model to feature number 31, Roseomonas
+2023-09-20 15:53:14 INFO::Fitting model to feature number 32, Rothia
+2023-09-20 15:53:14 INFO::Fitting model to feature number 33, Serratia
+2023-09-20 15:53:14 INFO::Fitting model to feature number 34, Staphylococcus
+2023-09-20 15:53:14 INFO::Fitting model to feature number 35, Stenotrophomonas
+2023-09-20 15:53:14 INFO::Fitting model to feature number 36, Streptococcus
+2023-09-20 15:53:14 INFO::Fitting model to feature number 37, Streptomyces
+2023-09-20 15:53:14 INFO::Fitting model to feature number 38, uncultured
+2023-09-20 15:53:14 INFO::Fitting model to feature number 39, Veillonella
+2023-09-20 15:53:14 INFO::Counting total values for each feature
+2023-09-20 15:53:14 INFO::Writing residuals to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/residuals.rds
+2023-09-20 15:53:14 INFO::Writing fitted values to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/fitted.rds
+2023-09-20 15:53:14 INFO::Writing extracted random effects to file /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/ranef.rds
+2023-09-20 15:53:14 INFO::Writing all results to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/all_results.tsv
+2023-09-20 15:53:14 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/significant_results.tsv
+2023-09-20 15:53:14 INFO::Writing heatmap of significant results to file: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin/heatmap.pdf
+2023-09-20 15:53:14 INFO::Writing association plots (one for each significant association) to output folder: /Users/liztown/Documents/KalanLab/CHG-SSI_Study/16S_Seq/CHGstudy16Sanalysis_FINAL/MAASLIN/PMAxxV.None/CHG_PMAxxNone_Genus_maslin
+2023-09-20 15:53:14 INFO::Plotting associations from most to least significant, grouped by metadata
+2023-09-20 15:53:14 INFO::Plotting data for metadata number 1, PMAxx
+2023-09-20 15:53:14 INFO::Creating boxplot for categorical data, PMAxx vs Raoultella
+2023-09-20 15:53:15 INFO::Creating boxplot for categorical data, PMAxx vs Acinetobacter
+2023-09-20 15:53:15 INFO::Creating boxplot for categorical data, PMAxx vs Escherichia.Shigella
+2023-09-20 15:53:15 INFO::Creating boxplot for categorical data, PMAxx vs Corynebacterium
+2023-09-20 15:53:16 INFO::Creating boxplot for categorical data, PMAxx vs Bacillus
+2023-09-20 15:53:16 INFO::Creating boxplot for categorical data, PMAxx vs Dietzia
+2023-09-20 15:53:16 INFO::Creating boxplot for categorical data, PMAxx vs Anaerococcus
+2023-09-20 15:53:16 INFO::Creating boxplot for categorical data, PMAxx vs Micrococcus
+2023-09-20 15:53:16 INFO::Creating boxplot for categorical data, PMAxx vs Finegoldia
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Paracoccus
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Brachybacterium
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Afipia
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Brevibacterium
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Staphylococcus
+2023-09-20 15:53:17 INFO::Creating boxplot for categorical data, PMAxx vs Serratia
+2023-09-20 15:53:18 INFO::Creating boxplot for categorical data, PMAxx vs Peptoniphilus
+2023-09-20 15:53:18 INFO::Creating boxplot for categorical data, PMAxx vs Streptococcus
+2023-09-20 15:53:18 INFO::Creating boxplot for categorical data, PMAxx vs Rothia
+2023-09-20 15:53:18 INFO::Creating boxplot for categorical data, PMAxx vs Actinomyces
+2023-09-20 15:53:18 INFO::Creating boxplot for categorical data, PMAxx vs Kocuria
+2023-09-20 15:53:19 INFO::Creating boxplot for categorical data, PMAxx vs Brevundimonas
+2023-09-20 15:53:19 INFO::Creating boxplot for categorical data, PMAxx vs Lawsonella
+2023-09-20 15:53:19 INFO::Creating boxplot for categorical data, PMAxx vs Gemella
+2023-09-20 15:53:19 INFO::Creating boxplot for categorical data, PMAxx vs Dermabacter
+2023-09-20 15:53:19 INFO::Creating boxplot for categorical data, PMAxx vs Cutibacterium
+2023-09-20 15:53:20 INFO::Creating boxplot for categorical data, PMAxx vs Luteimonas
+2023-09-20 15:53:20 INFO::Creating boxplot for categorical data, PMAxx vs uncultured
+2023-09-20 15:53:20 INFO::Creating boxplot for categorical data, PMAxx vs Veillonella
+2023-09-20 15:53:20 INFO::Creating boxplot for categorical data, PMAxx vs Roseomonas
+2023-09-20 15:53:20 INFO::Creating boxplot for categorical data, PMAxx vs Streptomyces
+2023-09-20 15:53:21 INFO::Creating boxplot for categorical data, PMAxx vs Amaricoccus
+2023-09-20 15:53:21 INFO::Creating boxplot for categorical data, PMAxx vs Aerococcus
+2023-09-20 15:53:21 INFO::Creating boxplot for categorical data, PMAxx vs Kytococcus
+2023-09-20 15:53:21 INFO::Creating boxplot for categorical data, PMAxx vs Haemophilus
+2023-09-20 15:53:22 INFO::Creating boxplot for categorical data, PMAxx vs Prevotella
+2023-09-20 15:53:22 INFO::Creating boxplot for categorical data, PMAxx vs Stenotrophomonas
+2023-09-20 15:53:22 INFO::Creating boxplot for categorical data, PMAxx vs Pseudomonas
+2023-09-20 15:53:22 INFO::Creating boxplot for categorical data, PMAxx vs Lactococcus
