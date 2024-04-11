@@ -23,7 +23,7 @@ library(MBECS)
 library(pivottabler)
 library(reshape2)
 
-setwd(dir = "/Users/liztown/Documents/KalanLab/Papers/CHGStudy/R.code")
+setwd(dir = "https://github.com/Kalan-Lab/Townsend_etal_StillNotSterile")
 
 # Figure 2B - PMAxx optomizatin 
 PCR <- read.csv("/AllForearmResultsFIN.csv")
